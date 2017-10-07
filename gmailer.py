@@ -14,7 +14,7 @@ if len(sys.argv) >= 3:
     text = ' '.join(sys.argv[2:])
 
     # Open browser and navigate to gmail
-    browser = webdriver.Chrome('/Users/michaelforde/Documents/web-drivers/chrome-driver/chromedriver')
+    browser = webdriver.Chrome('/Path/to/Chrome/Driver')
     browser.get('https://www.gmail.com')
 
     try:
